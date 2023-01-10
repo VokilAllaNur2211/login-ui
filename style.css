@@ -1,0 +1,53 @@
+
+html,body{
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+
+}
+.container-fluid{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+    text-align: center;
+    
+    
+
+}
+.login-box{
+    border-style:solid;
+    border-width: 4px;
+    border-color: rgba(248, 244, 166);
+    background-color: #BDF7B7;
+    min-width: 40%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(224, 142, 69);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 0px;
+    text-align: center;
+}
+input {
+    display: flex; /* use flexbox to align the elements */
+    align-items: center; /* center the elements vertically */
+    width: 75%; /* or any other desired width */
+    padding: 12px 12px; /* add some padding to the input */
+    margin: 0 auto; /* add some space between the inputs */
+    box-sizing: border-box; /* make sure the width includes the padding and border */
+    border: none; /* remove the default border */
+    border-bottom: 3px solid rgb(176, 233, 126); /* add a bottom border to the input */
+    font-size: 16px; /* increase the font size */
+    font-family: sans-serif; /* change the font family */
+    text-align: center;
+    justify-content: center; /* center the elements horizontally */
+  }
+p{
+    font-size: 22px; /* increase the font size */
+    font-weight: bold; /* make the text bold */
+    font-family: 'Montserrat', sans-serif; /* change the font family */
+}
+
+  

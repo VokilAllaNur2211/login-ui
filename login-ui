@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="style.css" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>Login UI Class</title>
+</head>
+<body>
+
+<!-- Step 1 make a container -->
+    <div class="container-fluid">
+     
+<!-- Step 2 make a box with container  -->
+            <div class="login-box">
+                <p>Sign In</p>
+<!-- Step 3 Make your text for username and password -->
+            <input type="text" placeholder="Enter Your Username">
+            <input type="password" placeholder="Enter Your Password">
+        
+                <div class="Button">
+                <button class="button">Submit</button>
+            </div>
+    
+            </div>
+
+
+        </div>
+
+    </body>
+
+</html>
